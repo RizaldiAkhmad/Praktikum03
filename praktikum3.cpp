@@ -21,5 +21,13 @@ int main(){
 		}else{
 			gajiTotal[1]=gajiPerminggu*0.85;
 		}
+		cout << "jam kerja minggu ketiga = "; cin>> waktu[1];
+		if (waktu[2]>40){
+			gajiLembur=(waktu[2]-40)*1.5*gajiPerjam;
+			gajiTotal[2]=(gajiPerminggu+gajiLembur)*0.85;
+			gajiAwal=gajiPerminggu*0.85;
+		}else{
+			gajiTotal[2]=gajiPerminggu*0.85;
+		}
 		
 }
