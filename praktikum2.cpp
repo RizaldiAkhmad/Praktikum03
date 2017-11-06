@@ -12,5 +12,11 @@ int main (){
 		cout << "Nilai Lebar  = "; cin>>lebar;
 		luas = tinggi*lebar;
 		cout << "Luas Persegi Panjang Adalah" <<luas;
+	}else if(bidang='S'){
+		cout << "Nilai Alas   = ";cin >>alas;
+		cout << "Nilai Tinggi = ";cin >>tinggi;
+		luas=0.5*alas*tinggi;
+		cout << "Luas Segitiga Adalah " <<luas;
 	}
+	
 }
