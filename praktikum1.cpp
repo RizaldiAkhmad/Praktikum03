@@ -11,4 +11,8 @@ int main(){
 		z=x-y;
 		cout << "x-y =" <<z;
      	}
+     	else{
+     	z=x-y;
+     	cout <<"y-x = " << z; 
+		 }
 	}
